@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional proofreading services for businesses, authors, and students.">
+    <title>Proofreading Portfolio | [Sumaya Akter]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background-color: #2e3a59;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 500;
+        }
+
+        header p {
+            font-size: 1.1em;
+            margin-top: 10px;
+        }
+
+        .button {
+            background-color: #ff6347;
+            color: #fff;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+
+        section {
+            padding: 40px 15px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #2e3a59;
+        }
+
+        .portfolio-item {
+            margin-bottom: 30px;
+        }
+
+        .portfolio-item h3 {
+            font-size: 1.5em;
+            margin: 5px 0;
+            color: #ff6347;
+        }
+
+        .portfolio-item p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .testimonials {
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .testimonials blockquote {
+            font-style: italic;
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        footer {
+            background-color: #2e3a59;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #ff6347;
+            color: #fff;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <h1>[Your Name]</h1>
+    <p>Professional Proofreading Services</p>
+    <a href="mailto:youremail@example.com" class="button">Contact Me</a>
+</header>
+
+<!-- About Me Section -->
+<section>
+    <h2 class="section-title">About Me</h2>
+    <p>I'm [Your Name], a professional proofreader with over [X years] of experience. I specialize in helping writers, students, and businesses improve their written content by focusing on grammar, punctuation, style, and clarity. Whether you're working on an academic paper, blog post, or novel, I can help polish your writing to perfection.</p>
+</section>
+
+<!-- Services Section -->
+<section>
+    <h2 class="section-title">Services</h2>
+    <ul>
+        <li>Grammar & punctuation correction</li>
+        <li>Consistency and style checks</li>
+        <li>Formatting (APA, MLA, Chicago)</li>
+        <li>Proofreading for clarity and flow</li>
+        <li>SEO copy for blogs and websites</li>
+        <li>Business reports and marketing materials</li>
+    </ul>
+</section>
+
+<!-- Portfolio Section -->
+<section>
+    <h2 class="section-title">Portfolio</h2>
+    <div class="portfolio-item">
+        <h3>Master's Thesis: "Impact of Social Media on Political Awareness"</h3>
+        <p>Proofread for grammar, formatting (APA), and academic tone. 12,000 words.</p>
+    </div>
+    <div class="portfolio-item">
+        <h3>Travel Blog: "Top 10 Hidden Beaches in Southeast Asia"</h3>
+        <p>Proofread for SEO, grammar, and readability.</p>
+    </div>
+    <div class="portfolio-item">
+        <h3>Fantasy Novel: "Whispers of the Forgotten Realm"</h3>
+        <p>Proofread for punctuation, consistency, and stylistic coherence. 75,000 words.</p>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section>
+    <h2 class="section-title">Client Testimonials</h2>
+    <div class="testimonials">
+        <blockquote>"Your proofreading has made my thesis so much stronger. Thank you for your careful attention to detail!" — M. Torres</blockquote>
+    </div>
+    <div class="testimonials">
+        <blockquote>"Quick, reliable, and always catches every little mistake. Highly recommend!" — J. Lee</blockquote>
+    </div>
+</section>
+
+<!-- Contact Form -->
+<section>
+    <h2 class="section-title">Contact</h2>
+    <form class="contact-form" action="mailto:youremail@example.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© [Sumaya Akter] | Proofreading Services | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
